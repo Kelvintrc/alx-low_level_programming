@@ -1,6 +1,8 @@
 #include <stdio.h>
 /**
- * main - Shows the beginning of program execution
+ * main - prints "Programming is like a building a multilingual puzzle
+ *
+ * Return: returns the value 0 if exited properly, otherewise non-zero
  */
 int main(void)
 {
@@ -8,5 +10,5 @@ int main(void)
 
 	puts(Mystr);
 
-	return (0);
+	return (0); /*can be ommited*/
 }
