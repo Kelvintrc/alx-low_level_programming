@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - prints "Programming is like a building a multilingual puzzle
+ * main - Dispays "Programming is like a building a multilingual puzzle
  *
  * Return: returns the value 0 if exited properly, otherewise non-zero
  */
