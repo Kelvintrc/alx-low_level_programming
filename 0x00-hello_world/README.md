@@ -32,7 +32,7 @@
 
 	-The program ends with the value 0
 
-5.Hello, printf: This is a C program that prints exactly with proper grammar, but the outcome is a piece of art, ,followed by a new line:
+5. Hello, printf: This is a C program that prints exactly with proper grammar, but the outcome is a piece of art, ,followed by a new line:
 	-Using the function printf
 
 	-Not allowed to use the function puts
