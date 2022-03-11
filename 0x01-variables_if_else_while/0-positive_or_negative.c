@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <time.h>
 /**
-*main -
-*Return:
+*main - Contains the code for program execution
+*Return: Returns the value 0 for success, otherwise non-zero
 */
 
 int main(void)
@@ -14,11 +14,14 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	if (n > 0) {
+	if (n > 0)
+	{
 		printf("%d is positive\n", n);
-	}else if(n == 0) {
+	} else if (n == 0)
+	{
 		printf("%d is zero\n", n);
-	}else if(n < 0) {
+	} else if (n < 0)
+	{
 		printf("%d is negative\n", n);
 	}
 
