@@ -6,3 +6,4 @@
 1. Don't swap horses in crossing a stream - swaps the values of two integers using Prototype: void swap_int(int *a, int *b)
 2. This report, by its very length, defends itself against the risk of being read - returns the length of a string using Prototype: int _strlen(char *s)
 3. I do not fear computers. I fear the lack of them - void_puts(char *str) function prints a string, followed by a new line, to stdout.
+4. I can only go one way. I've not got a reverse gear - Prototype: void print_rev(char *s) prints a string, in reverse, followed by a new line.
