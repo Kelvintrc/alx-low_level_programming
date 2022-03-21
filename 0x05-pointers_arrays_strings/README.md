@@ -8,3 +8,4 @@
 3. I do not fear computers. I fear the lack of them - void_puts(char *str) function prints a string, followed by a new line, to stdout.
 4. I can only go one way. I've not got a reverse gear - Prototype: void print_rev(char *s) prints a string, in reverse, followed by a new line.
 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes - Prototype: void rev_string(char *s) reverses a string.
+6. Half the lies they tell about me aren't true - Prototype: void puts2(char *str) prints every other character of a string, starting with the first character, followed by a new line.
