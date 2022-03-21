@@ -10,4 +10,5 @@
 5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes - Prototype: void rev_string(char *s) reverses a string.
 6. Half the lies they tell about me aren't true - Prototype: void puts2(char *str) prints every other character of a string, starting with the first character, followed by a new line.
 7. Winning is only half of it. Having fun is the other half - Prototype: void puts_half(char *str) prints half of a string, followed by a new line. Prints the second half of the string. If the number of characters is odd, the function prints the last n characters of the string, where n = (length_of_the_string - 1) / 2
-8. Arrays are not pointers -
+8. Arrays are not pointers - Prototype: void print_array(int *a, int n) prints n elements of an array of integers followed by a new line.
+9. strcpy - 
