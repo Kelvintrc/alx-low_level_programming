@@ -12,3 +12,22 @@
 7. Winning is only half of it. Having fun is the other half - Prototype: void puts_half(char *str) prints half of a string, followed by a new line. Prints the second half of the string. If the number of characters is odd, the function prints the last n characters of the string, where n = (length_of_the_string - 1) / 2
 8. Arrays are not pointers - Prototype: void print_array(int *a, int n) prints n elements of an array of integers followed by a new line.
 9. strcpy - Prototype: char *_strcpy(char *dest, char *src) copies the string pointed to by src, including the terminating null byte(\0), to the buffer pointed to by dest. Return value is the pointer to dest.
+10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers - Prototype: int _atoi(char *s) converts a string to an integer:
+
+	-The number in the string can be preceded by an infinite number of characters.
+
+	-It takes into account all the - and + signs before the number
+
+	-If there are no numbers in the string, the function must return 0
+
+	-Not allowed to use long
+
+	-Not allowed to declare new variables of "type" array
+
+	-Not allowed to hard-code special values
+
+	- '-fsanitize=signed-integer-overflow' gcc flag is used to compile the code
+
+11. Don't hate the hacker, hate the code - generates random valid passwords for the program 101-crackme:
+
+	-Allowed to use standard library
