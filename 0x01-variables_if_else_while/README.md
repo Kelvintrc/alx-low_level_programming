@@ -47,4 +47,124 @@
 
 	-putchar is only used twice in the code 
 
-3. alphABET 
+3. alphABET - prints the alphabet in lowercase, and then in uppercase, followed by a new line:
+
+	-I only use the putchar function(every other function(printf, puts, etc...)is forbidden)
+
+	-All the code is in the main function
+
+	-putchar is only used 3 times in the code
+
+4. When I was having that alphabet soup, I never thought it would pay off - prints alphabet in lowercase, followed by a new line:
+
+	-prints all letters except q and e
+
+	-Can only use putchar function
+
+	-All the code is in the main function
+	
+	-Putchar is only used twice in the code
+
+5. Numbers - prints all single digit numbers of base 10 starting from 0, followed by a new line. All the code is in the main function.
+6. Numberz - prints all single digit numbers of base 10 starting from 0, followed by a new line:
+
+	-Not allowed to use any variable of type char
+
+	-Can only use putchar function
+
+	-Can only use putchar twice in the code
+
+	-All the code is in the main function
+
+7. Smile in the mirror - prints the lowercase alphabet in reverse, followed by a newline:
+
+	-Can only use putchar function
+
+	-All code is in the main function
+
+	-Can only use putchar twice
+
+8. Hexadecimal - prints all the numbers of base 16 in lowercase, followed by a new line:
+
+	-Can only use putchar function
+
+	-All code is in the main function
+
+	-Can only use putchar 3 times
+
+9. Patience, persistence and perspiration make an unbeatable combination of success - prints all possible combinations of single-digit numbers:
+
+	-Numbers are separated by , followed by a space
+
+	-Numbers are printed in assending order
+
+	-Can only use putchar function
+
+	-All code is in the main function
+
+	-Can ony use putchar four times
+
+	-Not allowed to use any variable of type char
+
+10. Inventing is a combination of brains and materials. The more brains you use, the less material you need - prints all possible combinations of two digits
+
+	-Numbers are separated by , followed by a space
+
+	-The two digits must be different
+
+	-01 and 10 are considered the same combination of the two digits 0 and 1
+
+
+	-Prints only the smallest combination of two digits
+
+	-Numbers are printed in ascending order, with two digits
+
+	-Can only use putchar function
+
+	-Can only use putchar five times maximum
+
+	-Not allowed to use any variable of type char
+
+	-All code is in the main function
+
+11. The success combination in business is: Do what you do better... and: do more of what you do... - prints all possible different combinations of three digits:
+
+	-Numbers are separeted by , followed by a space
+
+	-The three digits must be diffent
+
+	- 012, 120, 102, 021, 201, 210 are considered the same combination of the three digits 0, 1 and 2
+
+	-Prints only the smallest combination of three digits
+
+	-Numbers are printed in ascending ordee, with 3 digits
+
+	-Can only use putchar function
+
+	-Can only use putchar 6 times maximum
+
+	-Not allowed to use any variavle of type char
+
+	-All code is in the main function
+
+12.Software is eating the World - prints all possible combinations of two two-digit numbers:
+
+	-Numbers range from 0 to 99
+
+	-Two numbers are separated by a space
+
+	-All numbers are printed with two digits. 1 is printed as 01
+
+	-The combination of numbers are separated by comma, followed by a space
+
+	-The combinations of numbers are printed in ascending order
+
+	-00 01 and 01 00 are considered as the same combination of the numbers o and 1 
+
+	-Can only use putchar function
+
+	-Can only use putchar 8 times maximum
+
+	-Not allowed to use any variable of type char
+
+	-All code is in the main function
