@@ -8,3 +8,5 @@
 3. strcmp - compares two strings using Prototype: int _strcmp(char *s1, char *s2)
 4. I am a kind of paranoid in reverse. I suspect people of plotting to make me happy - Prototype: void reverse_array(int *a, int n) reverses the content of an array of integers. where n is the number of elements of the array.
 5. Always look up - Prototype: char *string_toupper(char *) changes all lowercase letters of a string to uppercase.
+6. Expect the best. Prepare for the worst. Capitalize on what comes - Prototype: char *cap_string(char *) capitalizes all words of a string. Taking into account Separators of words: space, tabulation, new line, ,, ;, ., !, ?, ", (, ), {, and }
+
