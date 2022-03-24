@@ -39,3 +39,13 @@ mandatory - Prototype: char *leet(char *) encodes a string into 1317:
 	-Not allowed to use switch
 
 	-Not allowed to use any tenary operation
+
+9. Numbers have a life; they're not just symbols on paper - Prototype: void print_number(int n) prints an integer:
+
+	-Can only use _putchar function to print
+
+	-Not allowed to use long
+
+	-Not allowed to use arrays or pointers
+
+	-Not allowed to hard-code special values
