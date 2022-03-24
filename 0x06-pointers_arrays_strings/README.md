@@ -29,3 +29,13 @@ mandatory - Prototype: char *leet(char *) encodes a string into 1317:
 	-You are not allowed to use switch
 
 	-You are not allowed to use any ternary operation
+
+8. rot13 - Prototype: char *rot13(char *) encodes a string using rot13:
+
+	-Can only use if statement once in your code
+	
+	-Can only use two loops in the code
+
+	-Not allowed to use switch
+
+	-Not allowed to use any tenary operation
