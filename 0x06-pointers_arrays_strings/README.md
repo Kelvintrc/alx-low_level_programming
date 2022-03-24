@@ -49,3 +49,4 @@ mandatory - Prototype: char *leet(char *) encodes a string into 1317:
 	-Not allowed to use arrays or pointers
 
 	-Not allowed to hard-code special values
+10. A dream doesn't become reality through magic; it takes sweat, determination and hard work - Given pre-written code we add a line of code at line 19 so that the program prints a[2] = 98, followed by a new line.
