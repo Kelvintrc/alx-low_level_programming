@@ -12,3 +12,4 @@
 	Factorial of 0 is 1
 
 4. Once an idea has taken hold of the brain it's almost impossible to eradicate - Prototype: int _pow_recursion(int x, int y); returns the value of x raised to the power of y. If y is lower than 0, the funcion returns -1.
+5. Your subconscious is looking for the dreamer - Prototype: int _sqrt_recursion(int n); returns the natural square root of a number. If n does not have a natural square root, the function returns -1.
