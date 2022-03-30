@@ -15,3 +15,8 @@
 5. Your subconscious is looking for the dreamer - Prototype: int _sqrt_recursion(int n); returns the natural square root of a number. If n does not have a natural square root, the function returns -1.
 6. Inception. Is it possible? - Prototype: int is_prime_number(int n); returns 1 if the input integer is a prime number, otherwise return 0.
 7. They say we only use a fraction of our brain's true potential. Now that's when we're awake. When we're asleep, we can do almost anything - Prototype: int is_palindrome(char *s); returns 1 if a string is a palindrome and 0 if not. An empty string is a palindrome.
+8. Inception. Now, before you bother telling me it's impossible... - Prototype: int wildcmp(char *s1, char *s2); compares two strings and returns 1 if the strings can be considered identical, otherwise return 0:
+
+	-s2 can contain the special character *.
+
+	-The special char * can replace any string (including an empty string)
