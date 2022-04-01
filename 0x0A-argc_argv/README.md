@@ -13,4 +13,11 @@
 	-All arguments are printed, inluding the first one
 
 	-Only one argument is printed per line, ending with a new line.
+3. Neither irony nor sarcasm is argument - the program multiplies two numbers:
+
+	-Prints the result of the multiplication, followed by a new line
+
+	-Assumes that the two numbers and result of the multiplication can be stored in an integer
+
+	-If the program does not receive two arguments, it prints Error, followed by a new line and returns 1.
 
