@@ -20,4 +20,12 @@
 	-Assumes that the two numbers and result of the multiplication can be stored in an integer
 
 	-If the program does not receive two arguments, it prints Error, followed by a new line and returns 1.
+4. To infinity and beyond - this program adds positive numbers:
 
+	-Prints the result, followed by a new line
+
+	-If no number is passed to the program, prints 0, followed by a new line
+
+	-If one of the number contains symbols that are not digits, prints Error, followed by a new line and returns 1
+
+	-Assumes that numbers and the addition of all the numbers can be stored in an int.
