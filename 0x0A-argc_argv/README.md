@@ -7,4 +7,4 @@
 	-If you rename the program, it will print the new name, without having to compile it again
 
 	-You should not remove the path before the name of the program
-
+1. Silence is argument carried out by other means - The program prints the number of arguments passed into it. The program prints a number, followed by a new line.
