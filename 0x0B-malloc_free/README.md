@@ -22,3 +22,11 @@
 	-if NULL is passed, it is treated as an empty string
 
 	-The function returns NULL on failure
+
+3. If you even dream of beating me you'd better wake up and apologize - Prototype: int **alloc_grid(int width, int height); returns a pointer to a 2 dimensional array of integers:
+
+	-Each element of the grid is initialized to 0
+
+	-The function returns NULL on failure
+
+	-If width of height is 0 or negative, returns NULL
