@@ -30,3 +30,5 @@
 	-The function returns NULL on failure
 
 	-If width of height is 0 or negative, returns NULL
+
+4. It's not bragging if you can back it up - Prototype: void free_grid(int **grid, int height); frees 2 dimensional grid previously created by alloc_grid function in 3 above.
