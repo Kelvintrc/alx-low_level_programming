@@ -32,3 +32,10 @@
 	-If width of height is 0 or negative, returns NULL
 
 4. It's not bragging if you can back it up - Prototype: void free_grid(int **grid, int height); frees 2 dimensional grid previously created by alloc_grid function in 3 above.
+5. It isn't the mountains ahead to climb that wear you out; it's the pebble in your shoe - Prototype: char *argstostr(int ac, char **av); concatenates all the arguments of your program:
+
+	-Returns NULL if ac == 0 or av == NULL
+
+	-Returns a pointer to a new string, or NULL if it fails
+
+	-Each argument is followed by a \n in the new string
