@@ -39,3 +39,17 @@
 	-Returns a pointer to a new string, or NULL if it fails
 
 	-Each argument is followed by a \n in the new string
+
+6. I will show you how great I am - Prototype: char **strtow(char *str); splits a string into two words:
+
+	-The function returns a pointer to an array of strings(words)
+
+	-Each element of this array contains a single word, null-terminated.
+
+	-The last element of the returned array is NULL
+
+	-Words are separated by spaces
+
+	-Returns NULL if str == NULL or str == ''
+
+	-If the function fails, it returns NULL
