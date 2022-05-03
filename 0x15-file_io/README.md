@@ -1,5 +1,19 @@
-# 0x15. C - File I/O
+# File I/O
 
-		Tasks:
+Project done during **Full Stack Software Engineering studies** during **ALX PROGRAM**. It aims to learn about how to handle files (open, close, read and write), file descriptors, system calls and file permissions in **C language**.
 
-0. Tread lightly, she is near - A function that reads a text file and prints it to the POSIX standart output, using Prototype: ssize_t read_textfile(const char *filename, size_t letters);
+## Technologies
+* C files are compiled using `gcc 9.4.0`
+* C files are written according to the C90 standard
+* Tested on Ubuntu 20.04 LTS
+
+## Files
+All of the following files are programs written in C:
+
+| Filename | Description |
+| -------- | ----------- |
+| `0-read_textfile.c` | Reads a text file and prints it to the `POSIX` standard output |
+| `1-create_file.c` | Creates a file |
+| `2-append_text_to_file.c` | Appends text at the end of a file |
+| `3-cp.c` | Copies the content of a file to another file |
+| `100-elf_header.c` | Displays the information contained in the `ELF` header at the start of an `ELF` file |
