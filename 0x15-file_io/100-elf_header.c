@@ -104,55 +104,6 @@ void print_osabi(char *ptr)
 }
 
 
-/**
- * print_version - prints version
- * @ptr: magic.
- * Return: no return.
- */
-void print_version(char *ptr)
-{
-	int version = ptr[6];
-
-	printf("  Version:                           %d", version);
-
-	if (version == EV_CURRENT)
-		printf(" (current)");
-
-	printf("\n");
-}
-/**
- * print_data - prints data
- * @ptr: magic.
- * Return: no return.
- */
-void print_data(char *ptr)
-{
-	char data = ptr[5];
-
-	printf("  Data:                              2's complement");
-	if (data == 1)
-		printf(", little endian\n");
-
-	if (data == 2)
-		printf(", big endian\n");
-}
-/**
- * print_magic - prints magic info.
- * @ptr: magic.
- * Return: no return.
- */
-void print_magic(char *ptr)
-{
-	int bytes;
-
-	printf("  Magic:  ");
-
-	for (bytes = 0; bytes < 16; bytes++)
-		printf(" %02x", ptr[bytes]);
-
-	printf("\n");
-
-}
 
 /**
  * check_sys - check the version system.
